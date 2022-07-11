@@ -1,0 +1,15 @@
+EDCARE MAKEFILE
+
+output do makefile: edcare.out
+
+run: 
+    compila todos os .c e .h, gera edcare.out
+
+clean:
+    remove os arquivos .o e o edcare.out
+
+clean_test: 
+    remove os arquivos .o, o edcare.out, e qualquer saida.txt
+
+clean_all:
+    remove os arquivos .o, o edcare.out, e TODOS os .txt
